@@ -1,0 +1,133 @@
+.carousel-container{
+    width: 80%;
+    margin: 0 auto 50px;
+}
+
+.item-home-movie{
+    /* display: flex; */
+    overflow: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 32px;
+}
+
+.item-home-game{
+    /* display: flex; */
+    overflow: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 32px;
+}
+
+.additional{
+    display: flex;
+    align-items: center;
+}
+
+.item-movie{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar{
+    width: 360px;
+    margin: 0 auto 20px;
+}
+
+.item-game{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-movie{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-detail-movie{
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-image{
+    object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+    .detail-image {
+        width: 80%;
+    }
+}
+
+.detail-game{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-detail-game{
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form {
+    width: 300px;
+    max-width: 400px;
+}
+
+.login-form-button {
+    width: 100%;
+}
+
+.form-login{
+    display: flex;
+    justify-content: center;
+}
+
+.regis-form {
+    width: 600px;
+    max-width: 600px;
+}
+
+.regis-form-button {
+    width: 50%;
+}
+
+.form-regis{
+    display: flex;
+    justify-content: center;
+}
+
+.password-form {
+    width: 600px;
+    max-width: 600px;
+}
+
+.change-password-form-button {
+    width: 50%;
+}
+
+.form-password{
+    display: flex;
+    justify-content: center;
+}
+
+.edit-movie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.edit-detail-movie{
+    padding: 36px;
+}
+
+.edit-game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.edit-detail-game{
+    padding: 36px;
+}
